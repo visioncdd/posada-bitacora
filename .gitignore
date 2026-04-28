@@ -1,0 +1,20 @@
+# Fotos originales sin comprimir (pesadas, ya están localmente)
+project/uploads/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Temporales
+*.tmp
+*.bak
+~*

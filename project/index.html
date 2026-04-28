@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Posada Bitácora · Hospedaje y Paseos · Chichiriviche</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300..600&family=Playfair+Display:wght@400;500&family=DM+Serif+Display&family=Cormorant+Garamond:wght@400;500&family=Inter:wght@400;500;600&family=Manrope:wght@400;500;600&family=Work+Sans:wght@400;500;600&family=Nunito+Sans:wght@400;600&family=Allura&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+
+<!-- Resource dependencies (referenciadas en JSX, no en atributos HTML directos) -->
+<meta name="ext-resource-dependency" content="fotos/posada-frente.jpg" data-resource-id="posadaFrente" />
+<meta name="ext-resource-dependency" content="fotos/areas-comunes.jpg" data-resource-id="areasComunes" />
+<meta name="ext-resource-dependency" content="fotos/lancha-cuare.jpg" data-resource-id="lanchaCuare" />
+<meta name="ext-resource-dependency" content="fotos/piscina.jpg" data-resource-id="piscina" />
+<meta name="ext-resource-dependency" content="fotos/mirador.jpg" data-resource-id="mirador" />
+<meta name="ext-resource-dependency" content="fotos/cocina.jpg" data-resource-id="cocina" />
+<meta name="ext-resource-dependency" content="fotos/sextuple-a.jpg" data-resource-id="sextupleA" />
+<meta name="ext-resource-dependency" content="fotos/sextuple-b.jpg" data-resource-id="sextupleB" />
+<meta name="ext-resource-dependency" content="fotos/quintuple.jpg" data-resource-id="quintuple" />
+<meta name="ext-resource-dependency" content="fotos/triple.jpg" data-resource-id="triple" />
+<meta name="ext-resource-dependency" content="fotos/matrimonial.jpg" data-resource-id="matrimonial" />
+<style>
+  @media (max-width: 820px) {
+    section .wrap[style*="grid-template-columns"] { grid-template-columns: 1fr !important; }
+    .navlinks a:not(.btn) { display: none; }
+    h1 { font-size: clamp(2.2rem, 9vw, 3.4rem) !important; }
+  }
+</style>
+</head>
+<body>
+<template id="__bundler_thumbnail" data-bg-color="#FAF3E7">
+  <svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+    <rect width="1200" height="800" fill="#FAF3E7"/>
+    <!-- Ship wheel -->
+    <g transform="translate(600 400)" fill="none" stroke="#2E7C7B" stroke-width="6" stroke-linecap="round">
+      <circle r="120"/>
+      <circle r="60"/>
+      <circle r="8" fill="#2E7C7B"/>
+      <line x1="0" y1="-150" x2="0" y2="-90"/>
+      <line x1="0" y1="90" x2="0" y2="150"/>
+      <line x1="-150" y1="0" x2="-90" y2="0"/>
+      <line x1="90" y1="0" x2="150" y2="0"/>
+      <line x1="-106" y1="-106" x2="-64" y2="-64"/>
+      <line x1="64" y1="64" x2="106" y2="106"/>
+      <line x1="-106" y1="106" x2="-64" y2="64"/>
+      <line x1="64" y1="-64" x2="106" y2="-106"/>
+    </g>
+    <text x="600" y="620" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="56" fill="#2E7C7B">Posada Bitácora</text>
+    <text x="600" y="670" text-anchor="middle" font-family="monospace" font-size="20" fill="#D08878" letter-spacing="6">CARGANDO…</text>
+  </svg>
+</template>
+
+<div id="root"></div>
+
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+
+<script type="text/babel" src="tweaks-panel.jsx"></script>
+<script type="text/babel" src="icons.jsx"></script>
+<script type="text/babel" src="data.jsx"></script>
+<script type="text/babel" src="sections-hero.jsx"></script>
+<script type="text/babel" src="sections-rest.jsx"></script>
+<script type="text/babel" src="sections-info.jsx"></script>
+<script type="text/babel" src="app.jsx"></script>
+</body>
+</html>
