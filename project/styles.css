@@ -270,3 +270,55 @@ section > .wrap { position: relative; z-index: 1; }
   white-space: nowrap;
 }
 .price small { font-family: var(--font-body); font-size: 0.7em; color: var(--ink-soft); font-weight: 400; }
+
+/* ============================================
+   RESPONSIVE — móvil y tablet pequeño
+   ============================================ */
+@media (max-width: 820px) {
+  /* Aplastar TODOS los grids con grid-template-columns inline a 1 columna,
+     incluidos los anidados (Paseos, Tarifas, Horarios, FAQ, Footer, etc.) */
+  [style*="grid-template-columns"] {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* Tipografía: más compacta */
+  h1 { font-size: clamp(2.0rem, 8.5vw, 3.0rem) !important; }
+  h2 { font-size: clamp(1.7rem, 6vw, 2.4rem) !important; }
+
+  /* Secciones: padding vertical razonable */
+  section { padding: 64px 0; }
+  section + section { padding-top: 0; }
+  #inicio { padding-top: 100px !important; }
+
+  /* Nav: ocultar links en mobile, mantener solo botón Reservar */
+  .navlinks a:not(.btn) { display: none; }
+  .navlinks { gap: 12px !important; }
+  .navlinks .btn { padding: 9px 14px !important; font-size: 0.82rem !important; }
+
+  /* Reducir gaps grandes en grids (los inline que usan 64/56/48) */
+  [style*="gap: 64"] { gap: 32px !important; }
+  [style*="gap: 56"] { gap: 28px !important; }
+
+  /* Paseos: la imagen tenía minHeight 420 — demasiado alto en móvil */
+  #paseos [style*="min-height"],
+  #paseos [style*="minHeight"] { min-height: 260px !important; }
+
+  /* Áreas comunes: cuando se aplasta, quitar el offset visual de la columna */
+  #areas [style*="margin-top: 36"],
+  #areas [style*="marginTop"] { margin-top: 0 !important; }
+
+  /* Hero postal: padding interior más compacto */
+  #inicio [style*="padding: clamp(40px"] {
+    padding: 36px 24px !important;
+  }
+
+  /* Reducir scroll en .wrap muy ancho */
+  .wrap { padding-left: 20px !important; padding-right: 20px !important; }
+
+  /* Stat numbers más pequeños */
+  .eyebrow { font-size: 0.66rem !important; }
+}
+
+/* Pantallas muy pequeñas (teléfonos) */
+@media (max-width: 480px) {
+  .wrap { padding-left: 16px !important; padding-right: 16px !important; }
