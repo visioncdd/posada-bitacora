@@ -142,7 +142,7 @@ const Sobre = ({ showShells }) => (
         <div className="eyebrow">Nuestra historia</div>
         <h2>Una posada que se siente como tu casa de playa.</h2>
         <p style={{ marginTop: 22, fontSize: "1.05rem", color: "var(--ink-soft)" }}>
-          Estamos a orilla de playa en Chichiriviche, listos para recibirte como recibimos a los nuestros. Aquí no hay prisa: hay piscina, hamacas, cocina compartida y el mar siempre a dos pasos.
+          Estamos a orilla de playa en Chichiriviche, listos para recibirte como recibimos a los nuestros. Aquí no hay prisa: hay piscina, cocina compartida y el mar siempre a dos pasos.
         </p>
         <p style={{ marginTop: 16, fontSize: "1.05rem", color: "var(--ink-soft)" }}>
           Y cuando quieras escribir un nuevo capítulo, te llevamos a navegar por el Refugio de Fauna Silvestre de Cuare — uno de los rincones más bellos del Caribe venezolano.

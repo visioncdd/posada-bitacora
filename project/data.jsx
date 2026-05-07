@@ -80,7 +80,6 @@ const AMENITIES = [
   { icon: "kitchen", label: "Cocina compartida" },
   { icon: "car",     label: "Estacionamiento" },
   { icon: "beach",   label: "Acceso directo al mar" },
-  { icon: "hammock", label: "Hamacas y áreas comunes" },
 ];
 
 const TESTIMONIALS = [
@@ -105,7 +104,7 @@ const TESTIMONIALS = [
 ];
 
 const INCLUDED = [
-  { icon: "🚤", title: "Traslado de cortesía", text: "1 traslado a Cayo Sal o Cayo Muerto incluido en tu estadía." },
+  { icon: "🚤", title: "Traslado de cortesía", text: "1 traslado a Cayo Sal, Cayo Muerto, Cayo Peraza, Punta Varadero o el Refugio de Fauna Silvestre incluido en tu estadía." },
   { icon: "🛥️", title: "Embarque exclusivo", text: "Muelle privado dentro de la posada — directo a los cayos." },
   { icon: "🚗", title: "Estacionamiento privado", text: "Tu vehículo dentro de la posada, con seguridad." },
   { icon: "⚡", title: "Planta eléctrica nocturna", text: "Respaldo básico de 10:00 PM a 6:00 AM." },
@@ -121,8 +120,8 @@ const COMMON_AREAS = [
 ];
 
 const SCHEDULE = [
-  { label: "Check-in",         value: "12:00 PM" },
-  { label: "Check-out",        value: "10:00 AM" },
+  { label: "Check-in",         value: "1:00 PM" },
+  { label: "Check-out",        value: "12:00 PM" },
   { label: "Cocina y playa",   value: "Hasta 10:00 PM" },
   { label: "Retorno de cayos", value: "Máx. 5:45 PM" },
 ];
@@ -144,7 +143,7 @@ const FAQS = [
   },
   {
     q: "¿Cuál es el horario de check-in y check-out?",
-    a: "Check-in desde las 12:00 PM y check-out hasta las 10:00 AM. Si quieres aprovechar al máximo el primer día, puedes encargar tu almuerzo con al menos 24 horas de antelación para que esté listo al ingresar.",
+    a: "Check-in desde la 1:00 PM y check-out hasta las 12:00 PM. Si quieres aprovechar al máximo el primer día, puedes encargar tu almuerzo con al menos 24 horas de antelación para que esté listo al ingresar.",
   },
   {
     q: "¿Aceptan niños y bebés?",
@@ -152,7 +151,7 @@ const FAQS = [
   },
   {
     q: "¿Qué incluyen los paseos a los cayos?",
-    a: "Tu estadía incluye 1 traslado de cortesía a Cayo Sal o Cayo Muerto, con embarque desde nuestro muelle privado. El retorno máximo es a las 5:45 PM sujeto a disponibilidad. Cualquier traslado adicional tiene costo aparte y se paga antes del zarpe.",
+    a: "Tu estadía incluye 1 traslado de cortesía a elegir entre Cayo Sal, Cayo Muerto, Cayo Peraza, Punta Varadero o el Refugio de Fauna Silvestre, con embarque desde nuestro muelle privado. El retorno máximo es a las 5:45 PM sujeto a disponibilidad. Cualquier traslado adicional tiene costo aparte y se paga antes del zarpe.",
   },
   {
     q: "¿Cómo es el agua de la posada?",

@@ -97,9 +97,8 @@ const Paseos = ({ showShells }) => (
           <ul style={{ listStyle: "none", marginTop: 28, display: "grid", gap: 14 }}>
             {[
               "Salidas en lancha con guía local",
-              "Rutas a Cayo Sal, Cayo Sombrero y Boca Seca",
+              "Rutas a Cayo Sal, Cayo Muerto, Cayo Peraza, Punta Varadero y el Refugio de Fauna Silvestre",
               "Avistamiento de aves y manglares",
-              "Coordinamos según el clima y tu grupo",
             ].map((t, i) => (
               <li key={i} style={{ display: "flex", gap: 14, alignItems: "flex-start" }}>
                 <span style={{ color: "var(--coral-deep)", marginTop: 4 }}><Wave width={28} /></span>
