@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "posada",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["http-server", "project", "-p", "8123", "-c-1", "--silent"],
+      "port": 8123
+    }
+  ]
+}

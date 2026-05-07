@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__Claude_Preview__preview_start",
+      "Bash(git ls-remote *)",
+      "Bash(gh auth *)",
+      "Bash(curl -s https://api.github.com/repos/visioncdd/posada-bitacora)",
+      "Bash(curl -s https://api.github.com/repos/visioncdd/posada-bitacora/git/trees/7a2cc28b8b137571352f9c49b18fe9a30a3f54d4?recursive=1)",
+      "Bash(mkdir -p \"C:\\\\Users\\\\visio\\\\backup-posada\")",
+      "Bash(cp \"C:\\\\Users\\\\visio\\\\OneDrive\\\\Documentos\\\\proyectos\\\\posada-bitacora\\\\project\\\\data.jsx\" \"C:\\\\Users\\\\visio\\\\backup-posada\\\\data.jsx\")",
+      "Bash(cp \"C:\\\\Users\\\\visio\\\\OneDrive\\\\Documentos\\\\proyectos\\\\posada-bitacora\\\\project\\\\sections-rest.jsx\" \"C:\\\\Users\\\\visio\\\\backup-posada\\\\sections-rest.jsx\")",
+      "Bash(cp \"C:\\\\Users\\\\visio\\\\OneDrive\\\\Documentos\\\\proyectos\\\\posada-bitacora\\\\project\\\\sections-hero.jsx\" \"C:\\\\Users\\\\visio\\\\backup-posada\\\\sections-hero.jsx\")",
+      "Read(//c/Users/visio/**)",
+      "Bash(mkdir -p /c/Users/visio/backup-posada)",
+      "Bash(cp '/c/Users/visio/OneDrive/Documentos/proyectos/posada-bitacora/project/data.jsx' /c/Users/visio/backup-posada/data.jsx)",
+      "Bash(cp '/c/Users/visio/OneDrive/Documentos/proyectos/posada-bitacora/project/sections-rest.jsx' /c/Users/visio/backup-posada/sections-rest.jsx)",
+      "Bash(cp '/c/Users/visio/OneDrive/Documentos/proyectos/posada-bitacora/project/sections-hero.jsx' /c/Users/visio/backup-posada/sections-hero.jsx)",
+      "Bash(mkdir -p /c/temp)",
+      "Bash(rm -rf /c/temp/posada-clone)",
+      "Bash(git clone *)",
+      "Bash(rm -rf '/c/Users/visio/OneDrive/Documentos/proyectos/posada-bitacora/.git')",
+      "Bash(mv /c/temp/posada-clone/.git '/c/Users/visio/OneDrive/Documentos/proyectos/posada-bitacora/.git')"
+    ]
+  }
+}
