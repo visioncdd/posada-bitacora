@@ -110,7 +110,7 @@ const Tarifas = () => (
           <div style={{ height: 1, background: "rgba(255,255,255,0.12)", margin: "24px 0" }} />
           <div className="mono" style={{ color: "var(--coral)", marginBottom: 14 }}>Métodos aceptados</div>
           <div style={{ display: "flex", flexWrap: "wrap", gap: 8 }}>
-            {["Pago Móvil", "Transferencia", "Zelle", "Divisas"].map(m => (
+            {["Pago Móvil", "Transferencia", "Divisas"].map(m => (
               <span key={m} style={{
                 padding: "6px 12px",
                 borderRadius: 999,

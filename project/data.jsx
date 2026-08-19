@@ -139,7 +139,7 @@ const FAQS = [
   },
   {
     q: "¿Qué métodos de pago aceptan?",
-    a: "Pago Móvil, transferencia, Zelle y divisas. La tarifa es la misma para todos los métodos, en bolívares o divisas. La reserva solo se garantiza con el pago.",
+    a: "Pago Móvil, transferencia y divisas. La tarifa es la misma para todos los métodos, en bolívares o divisas. La reserva solo se garantiza con el pago.",
   },
   {
     q: "¿Cuál es el horario de check-in y check-out?",
