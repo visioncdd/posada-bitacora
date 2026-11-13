@@ -16,20 +16,6 @@ const ROOMS = [
     tag: "Para familias",
   },
   {
-    id: "sextuple-b",
-    name: 'Habitación Séxtuple "B"',
-    capacity: 6,
-    accent: "👥",
-    summary: "Misma capacidad, con litera para los más chicos.",
-    features: [
-      { icon: "bed",  text: "2 matrimoniales + 1 litera" },
-      { icon: "bath", text: "Baño privado externo" },
-      { icon: "ac",   text: "Aire acondicionado" },
-      { icon: "users", text: "Lencería básica de cama" },
-    ],
-    tag: "Para grupos",
-  },
-  {
     id: "quintuple",
     name: "Habitación Quíntuple",
     capacity: 5,
@@ -42,6 +28,20 @@ const ROOMS = [
       { icon: "users", text: "Lencería básica de cama" },
     ],
     tag: "Mediana",
+  },
+  {
+    id: "cuadruple",
+    name: "Habitación Cuádruple",
+    capacity: 4,
+    accent: "👥",
+    summary: "Dos matrimoniales, cómoda para dos parejas o familia pequeña.",
+    features: [
+      { icon: "bed",  text: "2 matrimoniales" },
+      { icon: "bath", text: "Baño privado externo" },
+      { icon: "ac",   text: "Aire acondicionado" },
+      { icon: "users", text: "Lencería básica de cama" },
+    ],
+    tag: "Para dos parejas",
   },
   {
     id: "triple",

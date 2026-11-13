@@ -31,8 +31,8 @@ const Habitaciones = ({ cardStyle }) => (
 
 const ROOM_PHOTOS = {
   "sextuple-a":  window.__resources.sextupleA,
-  "sextuple-b":  window.__resources.sextupleB,
   "quintuple":   window.__resources.quintuple,
+  "cuadruple":   window.__resources.cuadruple,
   "triple":      window.__resources.triple,
   "matrimonial": window.__resources.matrimonial,
 };
